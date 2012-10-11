@@ -28,7 +28,6 @@ public class XlsExportService {
 		accounts.add(a);accounts.add(b);accounts.add(b);
 		accounts.add(a);accounts.add(b);accounts.add(b);
 		
-		
 		SpreadsheetServiceImpl spreadSheetImpl = new SpreadsheetServiceImpl();
         spreadSheetImpl.saveSpreadsheetRecords(Account.class, accounts, System.out);
 //		File fs = new File("./test.xls");
