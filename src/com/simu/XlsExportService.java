@@ -18,7 +18,7 @@ public class XlsExportService {
 		a.setComment("commentaire de test");
 		a.setSolde(50);
 		a.setTitle("title test");
-		
+
 		Account b = new Account();
 		b.setComment("commentaire de test b");
 		b.setSolde(501);
